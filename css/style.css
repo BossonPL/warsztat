@@ -375,6 +375,9 @@ textarea {
     --base-blue: #08A6E4;
     --base-text-grey: #A5A5A5;
     --base-page-width: 1352px;
+    --base-black-text: #000000;
+    --base-green-light: #55DFB4;
+
 
 }
 
@@ -434,26 +437,20 @@ body {
 }
 
 .banner {
-
-    width: var(--base-page-width);
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color: black;
-    margin: auto;
     margin-top: 200px;
+    padding-bottom: 450px;
     box-sizing: content-box;
-
-}
-.banner_background {
-    width: var(--base-page-width);
-    height: 712px;
     background: transparent;
     background-image: url("../assets/Background.png");
     background-repeat: no-repeat;
-    margin: auto;
     background-size: contain;
+    background-position: bottom;
 
 }
 .banner-title {
@@ -479,4 +476,120 @@ body {
     border-radius: 40px;
     text-decoration: none;
     padding: 20px;
+}
+
+
+
+
+/*liczniki*/
+
+
+
+h2.counters-title {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font: 400 36px/42px Raleway;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+}
+.counters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 50px;
+    /*border: 1px dotted black;*/
+
+}
+.counters-body {
+    width: 20%;
+    display: block;
+    text-align: center;
+    position: relative;
+    font: 700 20px/24px "Raleway";
+    letter-spacing: 6px;
+    color: var(--base-black-text);
+    opacity: 1;
+    padding: 10px;
+}
+.counters-section1::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left:43%;
+    width: 63px;
+    height: 63px;
+    top: -100px;
+    background: red;
+    border-radius: 50%;
+}
+.counters-section1::after {
+    content: "";
+    background-image: url("../assets/Person.svg");
+    background-size: 63px 63px;
+    display: block;
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    z-index: 1;
+    left:48%;
+    top: -100px;
+}
+.counters-section2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left:43%;
+    width: 63px;
+    height: 63px;
+    top: -100px;
+    background: var(--base-blue);
+    border-radius: 50%;
+}
+.counters-section2::after {
+    content: "";
+    background-image: url("../assets/Eye.svg");
+    background-size: 63px 63px;
+    display: block;
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    z-index: 1;
+    left:48%;
+    top: -100px;
+}.counters-section3::before {
+     content: "";
+     display: block;
+     position: absolute;
+     left:43%;
+     width: 63px;
+     height: 63px;
+     top: -100px;
+     background: var(--base-green-light);
+     border-radius: 50%;
+ }
+.counters-section3::after {
+    content: "";
+    background-image: url("../assets/Catalog.svg");
+    background-size: 63px 63px;
+    display: block;
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    z-index: 1;
+    left:48%;
+    top: -100px;
+}
+.counters-text {
+    font: 400 17px/20px "Raleway";
+    letter-spacing: 0;
+    color: var(--base-text-grey);
+    opacity: 1;
+    padding: 10px;
+    box-sizing: border-box;
 }

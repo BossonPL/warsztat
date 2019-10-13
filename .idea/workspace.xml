@@ -2,6 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be5ede7f-d3aa-464d-ba30-aa3229bdd8fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/Background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Catalog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Checkmark-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Checkmark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Ckechmark-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Eye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Macbook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Mail Icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Person.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Phone Icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Trumpet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/Twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/iPhone.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -24,8 +39,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1S3h0mBBqN9sjoA6pBIZBDHDibC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -54,7 +72,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570797965542</updated>
-      <workItem from="1570797966587" duration="5456000" />
+      <workItem from="1570797966587" duration="6206000" />
+      <workItem from="1570985102181" duration="3424000" />
     </task>
     <task id="LOCAL-00001" summary="zmiana bestshop na div">
       <created>1570802727384</created>
@@ -63,7 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570802727384</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="header jest">
+      <created>1570804803374</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570804803374</updated>
+    </task>
+    <task id="LOCAL-00003" summary="header jest">
+      <created>1570804835714</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570804835714</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,14 +107,18 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="zmiana bestshop na div" />
-    <option name="LAST_COMMIT_MESSAGE" value="zmiana bestshop na div" />
+    <MESSAGE value="header jest" />
+    <option name="LAST_COMMIT_MESSAGE" value="header jest" />
   </component>
 </project>

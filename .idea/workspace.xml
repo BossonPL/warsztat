@@ -32,7 +32,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../js/WAR_FER_S_52_JavaScript" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunDashboard">
@@ -59,7 +59,8 @@
       <updated>1570797965542</updated>
       <workItem from="1570797966587" duration="6206000" />
       <workItem from="1570985102181" duration="6113000" />
-      <workItem from="1570994970804" duration="6727000" />
+      <workItem from="1570994970804" duration="7322000" />
+      <workItem from="1571086857708" duration="3642000" />
     </task>
     <task id="LOCAL-00001" summary="zmiana bestshop na div">
       <created>1570802727384</created>
@@ -89,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570989812113</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="dodalem banner">
+      <created>1571002796763</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571002796763</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
